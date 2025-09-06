@@ -89,11 +89,11 @@
 
         symbol {
             bindings = <
-&trans     &trans        &trans         &trans          &trans            &trans         &trans         &trans                &trans                 &trans             &trans           &kp DELETE
-&trans     &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)   &kp LS(DLLR)      &kp LS(PRCNT)  &kp BACKSLASH  &kp PIPE              &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &trans           &trans
-&kp LSHFT  &kp PLUS      &kp SEMICOLON  &kp SQT         &kp COMMA         &kp DOT        &kp SLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE     &kp RIGHT_BRACE  &trans
-&kp LSHFT  &kp ASTERISK  &kp MINUS      &kp EQUAL       &kp GREATER_THAN  &trans         &trans         &trans                &trans                 &trans             &trans           &trans
-&trans     &trans        &trans         &kp LEFT_SHIFT  &kp LC(C)         &kp LC(V)      &trans         &trans                &none                  &trans             &trans           &trans
+&trans     &trans        &trans         &trans          &trans            &trans         &trans           &trans                &trans                 &trans             &trans           &kp DELETE
+&trans     &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)   &kp LS(DLLR)      &kp LS(PRCNT)  &kp BACKSLASH    &kp PIPE              &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &kp AMPERSAND    &trans
+&kp LSHFT  &kp PLUS      &kp SEMICOLON  &kp SQT         &kp COMMA         &kp DOT        &kp SLASH        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE     &kp RIGHT_BRACE  &trans
+&kp LSHFT  &kp ASTERISK  &kp MINUS      &kp EQUAL       &kp GREATER_THAN  &kp QUESTION   &kp EXCLAMATION  &kp QUESTION          &kp CARET              &kp AMPERSAND      &trans           &trans
+&trans     &trans        &trans         &kp LEFT_SHIFT  &kp LC(C)         &kp LC(V)      &trans           &trans                &none                  &trans             &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
