@@ -59,6 +59,7 @@
         snipe-layer = <4>;
         scroll-snipe-layer = <6>;
         fast-scroll-layer = <7>;
+        perma-scroll-layer = <8>;
 
       // automouse-layer = <3>;
     };
